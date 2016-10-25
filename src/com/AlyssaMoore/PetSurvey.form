@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.AlyssaMoore.PetSurvey">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4595480"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="51433" class="javax.swing.JCheckBox" binding="catCheckBox" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-328966"/>
+          <opaque value="false"/>
+          <text value="Cat"/>
+        </properties>
+      </component>
+      <component id="95f2f" class="javax.swing.JCheckBox" binding="dogCheckBox" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-394759"/>
+          <opaque value="false"/>
+          <text value="Dog"/>
+        </properties>
+      </component>
+      <component id="7aea7" class="javax.swing.JCheckBox" binding="fishCheckBox" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-394759"/>
+          <opaque value="false"/>
+          <text value="Fish"/>
+        </properties>
+      </component>
+      <component id="acb" class="javax.swing.JLabel" binding="selectPets">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select the pets you have"/>
+        </properties>
+      </component>
+      <component id="913bb" class="javax.swing.JButton" binding="quitButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+          <text value="Quit"/>
+        </properties>
+      </component>
+      <component id="1a62c" class="javax.swing.JLabel" binding="surveyResults">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Survey Results"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
